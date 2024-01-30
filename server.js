@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const http = require("http").Server(app);
 const path = require("path");
-const PORT = process.env.PORT || 5006;
+const PORT = process.env.PORT || 3026;
 app.use("/static", express.static(path.join(__dirname, "build/static")));
 app.use("/images", express.static(path.join(__dirname, "build/images")));
 app.use("/icons", express.static(path.join(__dirname, "build/icons")));

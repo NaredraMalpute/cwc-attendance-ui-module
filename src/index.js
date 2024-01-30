@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/lfi/getStarted",
+        path: "/attandance/getStarted",
         element: <GetStarted />,
       },
       {
