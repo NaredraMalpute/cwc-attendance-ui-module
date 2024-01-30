@@ -1,0 +1,92 @@
+/* @import "../App.css"; */
+ .inputWrapper {
+	 position: relative;
+	 display: flex;
+	 flex-direction: column-reverse;
+	 border-bottom: 2px solid #334e9e;
+}
+ .inputWrapper .ant-picker {
+	 border: 0px;
+}
+ .inputWrapper .ant-picker-focused {
+	 box-shadow: none;
+}
+ .inputWrapper .ant-select .ant-select-selector {
+	 border: 0px;
+}
+ .inputWrapper label {
+	 color: rgba(0, 0, 0, 0.54);
+	 font-size: 14px;
+	 position: absolute;
+}
+ .inputWrapper label, .inputWrapper input {
+	 border: 0px;
+	 transition: all 0.2s;
+	 touch-action: manipulation;
+}
+ .inputWrapper input:valid {
+	 background: white;
+}
+ .inputWrapper input:focus {
+	 outline: 0px;
+	 box-shadow: none;
+}
+ .inputWrapper #datePickerLabel, .inputWrapper input:focus + label {
+	 cursor: text;
+	 max-width: 66.66%;
+	 white-space: nowrap;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 transform-origin: top left;
+	 transform: translate(0, -1.5rem) scale(0.75);
+}
+ .transparentWrapper label {
+	 z-index: 19;
+}
+ .transparentWrapper input {
+	 z-index: 20;
+	 opacity: 0;
+}
+ .labelWrapper .labelName {
+	 font-size: 14px;
+	 color: #334e9e;
+}
+ .labelWrapper .labelData {
+	 font-weight: bold;
+	 font-size: 16px;
+	 color: #09204c;
+}
+ .tableWrapper .ant-table-thead tr th {
+	 background-color: #334e9e;
+	 color: white;
+	 font-size: 16px;
+}
+ .mainCards {
+	 margin-bottom: 4px;
+	 letter-spacing: 1px;
+	 color: white;
+	 font-weight: bold;
+	 font-size: 16px;
+	 color: white;
+	 font-weight: bold;
+	 font-size: 25px;
+}
+ .mainCards .dashboardCard {
+	 background-color: #334e9e;
+	 color: white;
+	 box-shadow: 0px 0px 20px #bdbaba;
+	 border-radius: 10px;
+}
+ .mainCards .dashboardCard:hover {
+	 margin-bottom: 4px;
+	 color: #334e9e;
+	 font-size: 16px;
+	 font-weight: bold;
+	 letter-spacing: 1px;
+	 cursor: pointer;
+	 background-color: White;
+	 box-shadow: 0px 0px 20px gray;
+	 transition: 0.3s;
+	 animate: glow;
+}
+ 

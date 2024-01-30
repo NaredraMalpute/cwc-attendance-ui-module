@@ -1,0 +1,18 @@
+.txtHeader {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5%;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.crumb {
+    a {
+        color: #000000;
+    }
+}

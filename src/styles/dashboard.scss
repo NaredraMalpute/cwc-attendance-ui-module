@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ant-menu-item,
+.ant-menu-item-selected {
+  margin: 0 !important;
+}
+.ant-menu-item-selected {
+  border-left: 2px solid #fff;
+  background-color: transparent;
+}
+.ant-menu-item {
+  background: none;
+  margin: 0;
+}
+
+.cwc-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+  padding: 1.2rem;
+  img {
+    width: 32px;
+  }
+  position: relative;
+  .icon-close {
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    fill: #334e9e;
+    background-color: #fff;
+    font-size: 24px;
+    z-index: 10;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.notification-icon,
+.profile {
+  display: flex;
+  position: relative;
+  font-size: 24px;
+
+  .red-dot {
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+  }
+}
+
+:where(.css-dev-only-do-not-override-1iqpo2x).ant-menu-dark
+  .ant-menu-item-selected {
+  background-color: transparent;
+}
+
+.sidebar_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 94vh;
+  .middle-section {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+}
+
+.hello-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 47px;
+
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #2b2b2b;
+}

@@ -1,0 +1,105 @@
+
+
+.loader-container {
+    min-height: 90%;
+    height: 90vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color:rgba(0, 0, 0, 0.786);
+    border:none;
+    .App-logo {
+            width: 45%;
+            margin-top: -10%;
+        }
+    @media (prefers-reduced-motion: no-preference) {
+            .App-logo {
+                animation: App-logo-spin infinite 5s linear;
+            }
+        }
+    
+        .loader {
+            // background-color: rgba(40, 44, 52, 0.141);
+            background: transparent;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    
+    
+        @keyframes App-logo-spin {
+    
+            0%,
+            100% {
+                opacity: 0.5;
+            }
+    
+            25%{
+               opacity: .6;  
+            }
+            75% {
+                opacity: .75;
+            }
+    
+            50% {
+                opacity: .8;
+            }
+        }
+    
+        .dot-flashing {
+            position: relative;
+            width: 8px;
+            height: 8px;
+            border-radius: 5px;
+            background-color: #9880ff;
+            color: #9880ff;
+            animation: dot-flashing 1s infinite linear alternate;
+            animation-delay: 0.5s;
+        }
+    
+        .dot-flashing::before,
+        .dot-flashing::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 0;
+        }
+    
+        .dot-flashing::before {
+            left: -15px;
+            width: 8px;
+            height: 8px;
+            border-radius: 5px;
+            background-color: #9880ff;
+            color: #9880ff;
+            animation: dot-flashing 1s infinite alternate;
+            animation-delay: 0s;
+        }
+    
+        .dot-flashing::after {
+            left: 15px;
+            width: 8px;
+            height: 8px;
+            border-radius: 5px;
+            background-color: #334e9e;
+            color: #334e9e;
+            animation: dot-flashing 1s infinite alternate;
+            animation-delay: 1s;
+        }
+    
+        @keyframes dot-flashing {
+            0% {
+                background-color: #334e9e;
+            }
+    
+            50%,
+            100% {
+                background-color: rgba(152, 128, 255, 0.2);
+            }
+        }
+             
+}

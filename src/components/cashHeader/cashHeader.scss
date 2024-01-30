@@ -1,0 +1,95 @@
+.cashHeaderContent {
+    color: #fff;
+    font-size: 18.365px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.547px;
+    letter-spacing: 0.184px;
+    // margin-top: 25.5px;
+    .Header {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 1.14781rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.72169rem; /* 150% */
+        letter-spacing: 0.0115rem;
+    }
+    .rupee {
+        color: #fff;
+        font-family: Mukta;
+        font-size: 1.72169rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.72169rem;
+        letter-spacing: 0.01719rem;
+    }
+}
+
+.cashFont {
+    color: #0078ca;
+    font-family: Poppins;
+    font-size: 1.67rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.72169rem;
+    letter-spacing: 0.01719rem;
+    margin-right: .5rem;
+}
+
+.cashSubHeaderContent {
+    color: #fff;
+    font-size: 13.773px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.547px;
+    letter-spacing: 0.138px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.cashFontContainer {
+    font-size: 25px;
+    font-weight: 600;
+    width: 375px;
+}
+
+.cashHeaderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .Header {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 1.14781rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.72169rem; /* 150% */
+        letter-spacing: 0.0115rem;
+        .spanBlue {
+            color: #0078ca;
+        }
+    }
+     .rupee {
+        color: #fff;
+        font-family: Mukta;
+        font-size: 1.72169rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.72169rem;
+        letter-spacing: 0.01719rem;
+    }
+    .subHeader {
+        font-family: Poppins;
+        font-size: 0.89rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.72169rem;
+        letter-spacing: 0.01719rem;
+        color: #fff;
+    }
+}

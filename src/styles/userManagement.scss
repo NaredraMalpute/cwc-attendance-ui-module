@@ -1,0 +1,24 @@
+.user_management_wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-add {
+    background: #334c9e;
+    border-radius: 4px;
+    color: #ffffff;
+    &:hover{
+      background: #3051be;
+    border-radius: 4px;
+    color: #ffffff !important;  
+    }
+}
+
+.search-input {
+    background: #ffffff;
+    /* CWC Metal */
+
+    border: 1.10195px solid #a7b6cf;
+    border-radius: 10.6667px;
+    color: #000;
+}

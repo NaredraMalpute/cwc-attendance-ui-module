@@ -1,0 +1,30 @@
+
+.successContainer{
+
+    &.wrapperDiv-successMsg{
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .successWrapper{
+            border: 1px solid #05D4AF;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            .button{
+                min-width: 13.25rem;
+            }
+            .description{
+                padding: .3rem;
+                text-align: center;
+            }
+        }
+    }
+    
+    .successTextColor{
+        color: #05D4AF;
+    }
+}
